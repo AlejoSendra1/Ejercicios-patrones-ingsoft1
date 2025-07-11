@@ -10,4 +10,9 @@ public class WavPlayer implements AdvancedMediaPlayer {
   public String playOgg(String fileName) {
     return "Invalid media. " + " format not supported";
   }
+
+  @Override
+  public String playMp3(String fileName) {
+    return "Invalid media. " + " format not supported";
+  }
 }
