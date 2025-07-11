@@ -4,7 +4,8 @@
 # Ignore Gradle build output directory
 build
 
-.idea
-.idea/
+data
+.idea/*
+.vscode/*
 soluciones/
 .cursorrules
